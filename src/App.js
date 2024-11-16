@@ -24,7 +24,7 @@ function App() {
 
   function deletodo(index){
     const newtodolist =todos.filter((todo, todoindex)=>{
-      return todoindex !=index 
+      return todoindex !==index 
     })
     return setTodos(newtodolist)
   }
