@@ -1,6 +1,4 @@
 import React from 'react'
-import { useState , createContext, useContext} from "react";
-
 export default function TodoCard(props) {
 
   const {children, deletodo, index ,editodo}=props
